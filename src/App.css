@@ -36,3 +36,97 @@
     transform: rotate(360deg);
   }
 }
+
+/* .container {
+  display: flex;
+  justify-content: space-between;
+} */
+
+button {
+  color: blue;
+}
+.lotteryNumber {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ccr {
+  display: flex;
+
+  justify-content: space-between;
+}
+.moneyButtons {
+  border-radius: 50%;
+
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  background-color: #00000063;
+
+  margin: 3px;
+
+  color: rgb(252, 252, 252);
+
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.billNumbers > * {
+  height: 55px;
+  width: 55px;
+  padding: 1px;
+  background-color: #ff550063;
+
+  margin: 3px;
+
+  color: rgb(255, 255, 255);
+
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+.billNumbers > *:disabled {
+  height: 55px;
+  width: 55px;
+  padding: 1px;
+  background-color: #61dafb63;
+
+  margin: 3px;
+
+  color: rgb(0, 0, 0);
+
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.ccr {
+  padding: 20px;
+}
+.header {
+  background-color: blue;
+}
+h1 {
+  margin-left: 30%;
+  color: rgb(219, 222, 0);
+}
+
+.container {
+  background-color: gold;
+}
+.col-6 {
+  margin-left: 30%;
+}
+.col-6 > *:disabled {
+  border-radius: 50%;
+
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  background-color: #38fded63;
+
+  margin: 3px;
+
+  color: rgb(0, 0, 0);
+
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+img {
+  width: 280px;
+  height: 210px;
+  margin-bottom: 15%;
+}
